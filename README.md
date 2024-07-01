@@ -8,3 +8,4 @@ Web Interface: Provides an easy-to-use web interface built with React for upload
 Backend API: FastAPI backend for handling image uploads, running the captioning model, and returning captions.
 
 # UI
+![Screenshot 2024-07-01 193214](https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/b1b0aebe-d9bb-4175-b3c5-a82300ad656a)
