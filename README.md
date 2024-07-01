@@ -9,3 +9,4 @@ Backend API: FastAPI backend for handling image uploads, running the captioning 
 
 # UI
 ![Screenshot 2024-07-01 193214](https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/b1b0aebe-d9bb-4175-b3c5-a82300ad656a)
+![Screenshot 2024-07-01 195401](https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/f78ce5c2-8f52-4523-af41-175d0eb92967)
