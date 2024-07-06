@@ -17,3 +17,5 @@ Backend API: FastAPI backend for handling image uploads, running the captioning 
 Simple UI using react to upload the images.
 ![Screenshot 2024-07-01 193214](https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/5980db46-15b4-48d9-9b26-f6607c942745)
 ![Screenshot 2024-07-01 195401](https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/e7a49420-c245-4b45-97dc-6863a5b78b74)
+<img src="https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/5980db46-15b4-48d9-9b26-f6607c942745" width="200" />
+<img src="https://github.com/Sharathprasaath/Image-Captioning/assets/116355960/e7a49420-c245-4b45-97dc-6863a5b78b74" width="200" />
