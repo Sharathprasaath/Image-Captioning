@@ -4,7 +4,7 @@ This repository contains an implementation of an image captioning model using Lo
 
 # Features
 
-Image Feature Extraction: Utilizes a pre-trained CNN (such as VGG16, ResNet, or InceptionV3) to extract high-level features from images.
+** Image Feature Extraction **: Utilizes a pre-trained CNN (such as VGG16, ResNet, or InceptionV3) to extract high-level features from images.
 
 Caption Generation: Employs LSTM networks to generate natural language descriptions based on the extracted image features.
 
