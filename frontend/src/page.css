@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f6d365, #fda085); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center the container vertically */
+    position: relative; /* Relative positioning to allow absolute positioning of the overlay */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white overlay */
+}
+
+.container {
+    width: 600px; /* Fixed width */
+    height: 600px; /* Fixed height */
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px; /* Adjusted padding for a balanced look */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1; /* Ensure the container is above the overlay */
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.label-file {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.label-file:hover {
+    background-color: #0056b3;
+}
+
+.image-preview {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;}
+
+    .image-preview {
+        width: 300px; /* Reduced width */
+        height: 200px; /* Reduced height */
+        border: 2px dashed #ddd;
+        border-radius: 5px;
+        background-size: contain; /* Ensure the image fits inside the box */
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position: relative;
+        margin: 0 auto; /* Center the box horizontally */
+    }
+
+    .reset-button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .reset-button:hover {
+        background-color: #0056b3;
+    }
+    .button-container {
+        display: flex;
+        gap: 10px; /* Adjust the gap as needed */
+        justify-content: center; /* Center horizontally */
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+.image-preview p {
+    margin: 0;
+    color: #aaa;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff6347; /* Red button color for contrast */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #ff4c00; /* Darker red on hover */
+}
+
+.caption {
+    margin-top: 5px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.caption h2 {
+    color: #ff6347; /* Red color for the heading */
+}
+
+.caption p {
+    color: #333; /* Darker color for the text */
+    font-size: 18px;
+}
